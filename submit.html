@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Red Bar Radio Fools TV</title>
+    <style media="screen">
+    html, body{
+      margin:0;padding:0;
+      height:100%; width:100%;
+      overflow-y: auto;
+      overflow-x:hidden;
+      background-color:rgb(30,30,30);
+    }
+      #canvas{
+        position:fixed;
+        top:0px;
+        left:0px;
+        background-color:rgb(30,30,30);
+      }
+      .title{
+        font-family: Helvetica, sans-serif;
+        position: absolute;
+        top:15px;
+        width:100%;
+        text-align: center;
+        font-size: 18pt;
+        color: white;
+      }
+      .secondary{
+        font-family: Helvetica, sans-serif;
+        position: absolute;
+        top:40px;
+        width:50%;
+        left: calc(25% + 50px);
+        text-align: center;
+        font-size: 16pt;
+        color: red;
+      }
+      .page{
+        position: absolute;
+        z-index: 9000;
+        top:50px;
+        left:0px;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px;
+        overflow:auto;
+        text-align: center;
+        color:white;
+        font-size: 14pt;
+      }
+      .page a{
+        text-decoration: none;
+        margin: 10px 10px 10px 10px;
+        display: inline-block;
+        color: red;
+      }
+      .page a:hover{
+        color: rgb(200,0,0);
+      }
+      .headshot{
+        background-size: cover;
+        width: 200px;
+        margin: 0 auto;
+        height: 230px;
+        background-position: center;
+      }
+      .name{
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 14pt;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        margin:40px 0px 10px 0px;
+      }
+    </style>
+    <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="grid.min.css">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script type="text/javascript">
+        //make shit hd
+        var PIXEL_RATIO = (function () {
+          var ctx = document.createElement("canvas").getContext("2d"),
+              dpr = window.devicePixelRatio || 1,
+              bsr = ctx.webkitBackingStorePixelRatio ||
+                    ctx.mozBackingStorePixelRatio ||
+                    ctx.msBackingStorePixelRatio ||
+                    ctx.oBackingStorePixelRatio ||
+                    ctx.backingStorePixelRatio || 1;
+          return dpr / bsr;
+        })();
+        setHiDPICanvas = function(canvas, w, h, ratio) {
+            if (!ratio) { ratio = PIXEL_RATIO; }
+            var can = canvas;
+            can.width = w * ratio;
+            can.height = h * ratio;
+            can.style.width = w + "px";
+            can.style.height = h + "px";
+            can.getContext("2d").setTransform(ratio, 0, 0, ratio, 0, 0);
+        }
+        var canvas = document.getElementById('canvas');
+        canvas.width = document.body.clientWidth;
+        canvas.height = document.body.clientHeight;
+        setHiDPICanvas(canvas, canvas.width, canvas.height);
+
+
+        var context = canvas.getContext('2d');
+        var particleAmount = 600;
+        var particles = [];
+        for(i=0;i<particleAmount;i++){
+          var posY = randomFloatFromInterval(0,canvas.height/PIXEL_RATIO);
+          var posX = randomFloatFromInterval(0,canvas.width/PIXEL_RATIO);
+          var radius = randomFloatFromInterval(0,0.5);
+          var direction = {x:randomFloatFromInterval(-1,1),y:randomFloatFromInterval(-1,1)};
+          var sizeDirection = randomFloatFromInterval(-2, 2);
+          particles.push({x:posX,y:posY,radius:radius,direction:direction,sizeDirection:sizeDirection,maxSize:1});
+          context.beginPath();
+          context.arc(posX,posY,radius,0,2 * Math.PI,false);
+          context.fillStyle = "#FFFFFF";
+          context.fill();
+        }
+
+        setInterval(function(){
+          context.clearRect(0, 0, canvas.width, canvas.height);
+          for(i=0;i<particles.length;i++){
+            context.beginPath();
+            if(Math.floor(randomFloatFromInterval(0,20)) == 3){
+              particles[i].sizeDirection = 0 - particles[i].sizeDirection;
+            }
+            if(particles[i].x>canvas.width/PIXEL_RATIO || particles[i].x<0){
+              particles[i].direction.x = 0 - particles[i].direction.x;
+            }
+            if(particles[i].y>canvas.height/PIXEL_RATIO || particles[i].y<0){
+              particles[i].direction.y = 0 - particles[i].direction.y;
+            }
+            context.arc(particles[i].x+(particles[i].direction.x/3),particles[i].y+(particles[i].direction.y/3),particles[i].radius,0,2 * Math.PI,false);
+            particles[i].x= particles[i].x+(particles[i].direction.x/3);
+            particles[i].y= particles[i].y+(particles[i].direction.y/3);
+            particles[i].radius = Math.abs(particles[i].radius+particles[i].sizeDirection/100);
+            particles[i].radius = particles[i].radius > particles[i].maxSize ? particles[i].maxSize : particles[i].radius;
+            context.fillStyle = "#FFFFFF";
+            context.fill();
+          }
+        },50);
+
+        function randomFloatFromInterval(min,max)
+        {
+            return Math.random()*(max-min+1)+min;
+        }
+
+        window.onresize = function(event) {
+          canvas.width = document.body.clientWidth;
+          canvas.height = document.body.clientHeight;
+          setHiDPICanvas(canvas, canvas.width, canvas.height);
+        };
+    </script>
+    <h1 class="title">RED BAR RADIO</h1>
+    <h1 class="secondary">FOOLS TV</h1>
+    <div class="page">
+      input
+    </div>
+  </body>
+</html>
