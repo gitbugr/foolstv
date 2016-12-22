@@ -51,7 +51,7 @@
       }
       .page a{
         text-decoration: none;
-        margin: 10px 10px 10px 10px;
+        margin: 0px 10px 10px 10px;
         display: inline-block;
         color: red;
       }
@@ -60,10 +60,23 @@
       }
       .headshot{
         background-size: cover;
-        width: 200px;
+        width: 170px;
         margin: 0 auto;
-        height: 230px;
+        margin-top: 80px;
+        height: 200px;
         background-position: center;
+        position: relative;
+      }
+      .frame{
+        position: absolute;
+        top:-35px;
+        left:-35px;
+        right:-35px;
+        bottom:-35px;
+        background: url('http://media.overstockart.com/cache/data/frames/FR-6996G20X24-1000x1000.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
       }
       .name{
         font-family: Helvetica, sans-serif;
@@ -73,12 +86,12 @@
         color: white;
         margin: 0px;
         padding: 0px;
-        margin:40px 0px 10px 0px;
+        margin:50px 0px 10px 0px;
       }
     </style>
-    <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="grid.min.css">
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -170,8 +183,9 @@
         console.log(data);
         for(i=0;i<data.length;i++){
           var cont=$("<div></div>").appendTo(".page").addClass('grid-3 grid-4-md grid-12-sm');
+          var headshot = $("<div></div>").appendTo(cont).addClass('headshot').css({"background-image": "url("+data[i].headshot+")"});
+          $("<div></div>").appendTo(headshot).addClass('frame');
           $("<h1></h1>").appendTo(cont).addClass('name').text(data[i].name);
-          $("<div></div>").appendTo(cont).addClass('headshot').css({"background-image": "url("+data[i].headshot+")"});
           if(typeof data[i].youtube !== 'undefined')
             $("<a></a>").appendTo(cont).attr({'href':data[i].youtube}).addClass('ion-social-youtube');
           if(typeof data[i].twitter !== 'undefined')
