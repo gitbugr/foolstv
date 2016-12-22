@@ -134,7 +134,16 @@
         "https://www.youtube.com/playlist?list=PLVv710SrggAETuhHW3qMKLynYhRVeshKc",
         "https://www.youtube.com/playlist?list=PLd8dExv3TGsr3fN8qJcPdouPsoPdz6TGz"
     ]
-}, {
+},
+{
+  "name": "Verne Troyer",
+  "headshot":"http://i.imgur.com/BdxSzX0.png",
+  "youtube":"https://www.youtube.com/channel/UCLDbKMN_2Be5CSXhilgp-2g",
+  "twitter":"https://twitter.com/vernetroyer",
+  "facebook":"https://www.facebook.com/vernetroyer",
+  "instagram":"https://www.instagram.com/vernetroyer/"
+},
+{
     "name": "Nick Offerman",
     "headshot": "http://i.imgur.com/IwncXg8.png",
     "twitter": "https://twitter.com/nick_offerman",
