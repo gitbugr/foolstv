@@ -61,7 +61,9 @@
     "twitter": "https://twitter.com/AlisonRosen",
     "instagram": "https://www.instagram.com/alisonrosen",
     "facebook": "https://www.facebook.com/thealisonrosen",
-    "other": ["http://www.alisonrosen.com/"]
+    "other": [
+      "http://www.alisonrosen.com/"
+    ]
   },
   {
     "name": "Nick Offerman",
@@ -69,10 +71,12 @@
     "twitter": "https://twitter.com/nick_offerman",
     "instagram": "https://www.instagram.com/offermanwoodshop/",
     "facebook": "https://www.facebook.com/OffermanWoodshop",
-    "other": ["https://offermanwoodshop.com/"]
+    "other": [
+      "https://offermanwoodshop.com/"
+    ]
   },
   {
-    "name": "Brendan \"wetmovie1\" Mitchell",
+    "name": "Brendan &quot;wetmovie1&quot; Mitchell",
     "headshot": "https://i.imgur.com/nmBZbYy.png",
     "youtube": "https://www.youtube.com/user/wetmovie1",
     "twitter": "https://twitter.com/wetmovie",
