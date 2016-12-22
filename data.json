@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Michael Ray Bower",
+    "headshot": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/6/14/enhanced/webdr01/grid-cell-13006-1412619285-7.jpg",
+    "youtube": "https://youtube.com/heybower",
+    "twitter": "https://twitter.com/michaelraybower",
+    "instagram": "https://www.instagram.com/michaelraybower/",
+    "facebook": "https://www.facebook.com/heybower",
+    "other": [
+      "http://heybower.com/"
+    ]
+  },
+  {
+    "name":"Marc Falzon",
+    "headshot":"https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/14205963_10209133688032014_2089192670957834206_o.jpg?oh=b496e474575c4e85ad455c92c4f0b593&oe=58AFFE92",
+    "youtube":"https://www.youtube.com/user/SimpleHealthYT",
+    "instagram":"https://www.instagram.com/mafalzon/",
+    "facebook":"https://www.facebook.com/KnownTK?fref=ts",
+    "other":[
+      "http://www.simhea.com/#home",
+      "http://www.textzirby.com/"
+    ]
+  }
+]
