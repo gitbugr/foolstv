@@ -88,6 +88,19 @@
         padding: 0px;
         margin:40px 0px 10px 0px;
       }
+      .jesterHat{
+        position: absolute;
+        z-index: 9999;
+        width: 110px;
+        height:110px;
+        top:-65px;
+        left:25px;
+        transform: rotate(-10deg);
+        background:url('jesterhat.png');
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
     </style>
     <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="grid.min.css">
@@ -185,6 +198,8 @@
           var cont=$("<div></div>").appendTo(".page").addClass('grid-3 grid-4-md grid-12-sm');
           var headshot = $("<div></div>").appendTo(cont).addClass('headshot').css({"background-image": "url("+data[i].headshot+")"});
           $("<div></div>").appendTo(headshot).addClass('frame');
+          if(i===0)
+            $("<div></div>").appendTo(headshot).addClass('jesterHat');
           $("<h1></h1>").appendTo(cont).addClass('name').text(data[i].name);
           if(typeof data[i].youtube !== 'undefined')
             $("<a></a>").appendTo(cont).attr({'href':data[i].youtube}).addClass('ion-social-youtube');
