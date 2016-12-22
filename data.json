@@ -56,11 +56,27 @@
   },
   {
     "name": "Alison Rosen",
-    "headshot": "http://images1.ocweekly.com/imager/u/blog/6471701/alison_rosen_1179.jpg",
+    "headshot": "https://i.imgur.com/Rbeahle.png",
     "youtube": "https://www.youtube.com/user/AlisonRosen",
     "twitter": "https://twitter.com/AlisonRosen",
     "instagram": "https://www.instagram.com/alisonrosen",
     "facebook": "https://www.facebook.com/thealisonrosen",
     "other": ["http://www.alisonrosen.com/"]
+  },
+  {
+    "name": "Nick Offerman",
+    "headshot": "http://i.imgur.com/IwncXg8.png",
+    "twitter": "https://twitter.com/nick_offerman",
+    "instagram": "https://www.instagram.com/offermanwoodshop/",
+    "facebook": "https://www.facebook.com/OffermanWoodshop",
+    "other": ["https://offermanwoodshop.com/"]
+  },
+  {
+    "name": "Brendan \"wetmovie1\" Mitchell",
+    "headshot": "https://i.imgur.com/nmBZbYy.png",
+    "youtube": "https://www.youtube.com/user/wetmovie1",
+    "twitter": "https://twitter.com/wetmovie",
+    "instagram": "https://www.instagram.com/wetmovie_1/",
+    "facebook": "https://www.facebook.com/brendan.mitchell.96r",
   }
 ]
