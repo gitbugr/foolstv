@@ -20,5 +20,16 @@
       "http://www.simhea.com/#home",
       "http://www.textzirby.com/"
     ]
+  },
+  {
+    "name":"TommyNC2010",
+    "headshot":"https://i.imgur.com/UcboRi6.jpg",
+    "youtube":"https://www.youtube.com/user/tommync2010",
+    "twitter":"https://twitter.com/tommync2010",
+    "instagram":"https://www.instagram.com/tommync2010/",
+    "facebook":"https://www.facebook.com/tommync2010",
+    "other":[
+      "https://www.youtube.com/channel/UCOdjfjbLXce2_klPJwhKdMQ"
+    ]
   }
 ]
