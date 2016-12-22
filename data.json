@@ -1,16 +1,14 @@
-[
-  {
-    "name":"Patrick Melton",
-    "headshot":"https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/15697743_1290364087695358_3881508545284416445_n.jpg?oh=a114504c9e81a42d1f2ec608f6784b14&oe=58FCF0C6",
-    "youtube":"https://www.youtube.com/channel/UCDuKXWcNqC3AZhTy09fKMEA",
-    "twitter":"https://twitter.com/pmelt",
-    "instagram":"https://www.instagram.com/pmelt/",
-    "facebook":"https://www.facebook.com/pmelt",
-    "other":[
-      "http://www.nobodylikesonions.com/"
+[{
+    "name": "Patrick Melton",
+    "headshot": "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/15697743_1290364087695358_3881508545284416445_n.jpg?oh=a114504c9e81a42d1f2ec608f6784b14&oe=58FCF0C6",
+    "youtube": "https://www.youtube.com/channel/UCDuKXWcNqC3AZhTy09fKMEA",
+    "twitter": "https://twitter.com/pmelt",
+    "instagram": "https://www.instagram.com/pmelt/",
+    "facebook": "https://www.facebook.com/pmelt",
+    "other": [
+        "http://www.nobodylikesonions.com/"
     ]
-  },
-  {
+}, {
     "name": "Michael Ray Bower",
     "headshot": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/6/14/enhanced/webdr01/grid-cell-13006-1412619285-7.jpg",
     "youtube": "https://youtube.com/heybower",
@@ -18,79 +16,78 @@
     "instagram": "https://www.instagram.com/michaelraybower/",
     "facebook": "https://www.facebook.com/heybower",
     "other": [
-      "http://heybower.com/"
+        "http://heybower.com/"
     ]
-  },
-  {
-    "name":"Marc Falzon",
-    "headshot":"https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/14205963_10209133688032014_2089192670957834206_o.jpg?oh=b496e474575c4e85ad455c92c4f0b593&oe=58AFFE92",
-    "youtube":"https://www.youtube.com/user/SimpleHealthYT",
-    "instagram":"https://www.instagram.com/mafalzon/",
-    "facebook":"https://www.facebook.com/KnownTK?fref=ts",
-    "other":[
-      "http://www.simhea.com/#home",
-      "http://www.textzirby.com/"
+}, {
+    "name": "Marc Falzon",
+    "headshot": "https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/14205963_10209133688032014_2089192670957834206_o.jpg?oh=b496e474575c4e85ad455c92c4f0b593&oe=58AFFE92",
+    "youtube": "https://www.youtube.com/user/SimpleHealthYT",
+    "instagram": "https://www.instagram.com/mafalzon/",
+    "facebook": "https://www.facebook.com/KnownTK?fref=ts",
+    "other": [
+        "http://www.simhea.com/#home",
+        "http://www.textzirby.com/"
     ]
-  },
-  {
-    "name":"TommyNC2010",
-    "headshot":"http://i.imgur.com/4IZt8Y7.png",
-    "youtube":"https://www.youtube.com/user/tommync2010",
-    "twitter":"https://twitter.com/tommync2010",
-    "instagram":"https://www.instagram.com/tommync2010/",
-    "facebook":"https://www.facebook.com/tommync2010",
-    "other":[
-      "https://www.youtube.com/channel/UCOdjfjbLXce2_klPJwhKdMQ"
+}, {
+    "name": "Othy Schwering",
+    "headshot": "blob:http://imgur.com/61e427e8-fbde-7743-9e36-6f6018c3b16f",
+    "youtube": "https://www.youtube.com/user/Othy1kEnoB",
+    "twitter": "https://twitter.com/othy",
+    "instagram": "https://www.instagram.com/othyschwering/",
+    "other": [
+        "https://othyschwering.wordpress.com/"
     ]
-  },
-  {
-  "name": "Jon Meseke",
-  "headshot": "http://i.imgur.com/JeiafJ5.png",
-  "other": ["https://redbarradio.net/donsyndrome"
-  ]
-  },
-  {
-    "name":"Tony Hinchcliffe",
-    "headshot":"http://mypullzone.orangepopmediall.netdna-cdn.com/wp-content/uploads/2016/01/tony-hinchcliffe-640x377.jpg",
-    "youtube":"https://www.youtube.com/channel/UCYdFv-xUjmr7jn3vWTXugKg",
-    "twitter":"http://twitter.com/TonyHinchcliffe",
-    "instagram":"http://instagram.com/tonyhinchcliffe/",
-    "facebook":"https://facebook.com/tony.hinchcliffe.9",
-    "other":[
-      "http://www.tonyhinchcliffe.com/"
+}, {
+    "name": "TommyNC2010",
+    "headshot": "http://i.imgur.com/4IZt8Y7.png",
+    "youtube": "https://www.youtube.com/user/tommync2010",
+    "twitter": "https://twitter.com/tommync2010",
+    "instagram": "https://www.instagram.com/tommync2010/",
+    "facebook": "https://www.facebook.com/tommync2010",
+    "other": [
+        "https://www.youtube.com/channel/UCOdjfjbLXce2_klPJwhKdMQ"
     ]
-  },
-  {
-  "name": "Mike Finoia",
-  "headshot": "http://www.tellus360.com/wp-content/uploads/2016/06/FullSizeRender.jpg",
-  "twitter": "https://twitter.com/mikefinoia",
-  "instagram": "https://www.instagram.com/mikefinoia/",
-  "facebook": "https://www.facebook.com/mike.finoia",
-  "other": [
-  "http://mikefinoia.com/"
-  ]
-  },
-  {
+}, {
+    "name": "Jon Meseke",
+    "headshot": "http://i.imgur.com/JeiafJ5.png",
+    "other": ["https://redbarradio.net/donsyndrome"]
+}, {
+    "name": "Tony Hinchcliffe",
+    "headshot": "http://mypullzone.orangepopmediall.netdna-cdn.com/wp-content/uploads/2016/01/tony-hinchcliffe-640x377.jpg",
+    "youtube": "https://www.youtube.com/channel/UCYdFv-xUjmr7jn3vWTXugKg",
+    "twitter": "http://twitter.com/TonyHinchcliffe",
+    "instagram": "http://instagram.com/tonyhinchcliffe/",
+    "facebook": "https://facebook.com/tony.hinchcliffe.9",
+    "other": [
+        "http://www.tonyhinchcliffe.com/"
+    ]
+}, {
+    "name": "Mike Finoia",
+    "headshot": "http://www.tellus360.com/wp-content/uploads/2016/06/FullSizeRender.jpg",
+    "twitter": "https://twitter.com/mikefinoia",
+    "instagram": "https://www.instagram.com/mikefinoia/",
+    "facebook": "https://www.facebook.com/mike.finoia",
+    "other": [
+        "http://mikefinoia.com/"
+    ]
+}, {
     "name": "Brendan Mitchell",
     "headshot": "https://i.imgur.com/nmBZbYy.png",
     "youtube": "https://www.youtube.com/user/wetmovie1",
     "twitter": "https://twitter.com/wetmovie",
     "instagram": "https://www.instagram.com/wetmovie_1/",
     "facebook": "https://www.facebook.com/brendan.mitchell.96r"
-  },
-  {
+}, {
     "name": "Gabe Mercado",
     "headshot": "https://i.ytimg.com/vi/b4VyH_VmqdQ/maxresdefault.jpg",
     "youtube": "https://www.youtube.com/user/HeroSuper99",
     "instagram": "https://www.instagram.com/herosuper99/",
     "facebook": "https://www.facebook.com/gabriel.mercado.1675"
-  },
-  {
+}, {
     "name": "The Food Reviewer",
-    "headshot": "blob:http://imgur.com/98024b13-e486-4c40-8151-e01391be0c6c",
+    "headshot": "http://i.imgur.com/X7BAgSI.jpg",
     "youtube": "https://www.youtube.com/user/Thefoodreviewer"
-  },
-  {
+}, {
     "name": "Alison Rosen",
     "headshot": "https://i.imgur.com/Rbeahle.png",
     "youtube": "https://www.youtube.com/user/AlisonRosen",
@@ -98,10 +95,9 @@
     "instagram": "https://www.instagram.com/alisonrosen",
     "facebook": "https://www.facebook.com/thealisonrosen",
     "other": [
-      "http://www.alisonrosen.com/"
+        "http://www.alisonrosen.com/"
     ]
-  },
-  {
+}, {
     "name": "Cameron Espozito",
     "headshot": "http://i.imgur.com/SXNnhDe.jpg",
     "youtube": "https://www.youtube.com/channel/UCOsDNgxQLb0GIH27NrayoTQ",
@@ -109,12 +105,11 @@
     "instagram": "https://www.instagram.com/cameronesposito/",
     "facebook": "https://www.facebook.com/cameronjokes",
     "other": [
-    "https://twitter.com/cameronesposito/",
-    "https://www.youtube.com/playlist?list=PLVv710SrggAETuhHW3qMKLynYhRVeshKc",
-    "https://www.youtube.com/playlist?list=PLd8dExv3TGsr3fN8qJcPdouPsoPdz6TGz"
+        "https://twitter.com/cameronesposito/",
+        "https://www.youtube.com/playlist?list=PLVv710SrggAETuhHW3qMKLynYhRVeshKc",
+        "https://www.youtube.com/playlist?list=PLd8dExv3TGsr3fN8qJcPdouPsoPdz6TGz"
     ]
-  },
-  {
+}, {
     "name": "Rhea Butcher (The Butcher)",
     "headshot": "http://i.imgur.com/GCNMRWu.png",
     "youtube": "https://www.youtube.com/user/RheaButcherComedy",
@@ -122,32 +117,29 @@
     "instagram": "https://www.instagram.com/rheabutcher/",
     "facebook": "https://www.facebook.com/RheaButcher/",
     "other": [
-    "http://www.imdb.com/name/nm6429056/",
-    "https://www.youtube.com/playlist?list=PLVv710SrggAETuhHW3qMKLynYhRVeshKc",
-    "https://www.youtube.com/playlist?list=PLd8dExv3TGsr3fN8qJcPdouPsoPdz6TGz"
+        "http://www.imdb.com/name/nm6429056/",
+        "https://www.youtube.com/playlist?list=PLVv710SrggAETuhHW3qMKLynYhRVeshKc",
+        "https://www.youtube.com/playlist?list=PLd8dExv3TGsr3fN8qJcPdouPsoPdz6TGz"
     ]
-  },
-  {
+}, {
     "name": "Nick Offerman",
     "headshot": "http://i.imgur.com/IwncXg8.png",
     "twitter": "https://twitter.com/nick_offerman",
     "instagram": "https://www.instagram.com/offermanwoodshop/",
     "facebook": "https://www.facebook.com/OffermanWoodshop",
     "other": [
-      "https://offermanwoodshop.com/"
+        "https://offermanwoodshop.com/"
     ]
-  },
-  {
+}, {
     "name": "Megan Mullally",
     "headshot": "http://i.imgur.com/80UlM4Y.jpg",
     "twitter": "https://twitter.com/meganomullally",
     "instagram": "https://www.instagram.com/meganomullally/",
     "facebook": "https://www.facebook.com/NancyAndBeth",
     "other": [
-      "http://www.meganmullally.net/"
+        "http://www.meganmullally.net/"
     ]
-  },
-  {
+}, {
     "name": "Natasha Peal Hansen",
     "headshot": "https://pbs.twimg.com/media/COKWOzIUsAA2tek.jpg",
     "youtube": "https://www.youtube.com/user/natashapearlhansen",
@@ -155,17 +147,14 @@
     "instagram": "https://www.instagram.com/nphcomedy/",
     "facebook": "https://www.facebook.com/NatashaPearlHansen",
     "other": [
-    "http://www.natashapearlhansen.com/",
-    "http://www.imdb.com/name/nm4319541/"
+        "http://www.natashapearlhansen.com/",
+        "http://www.imdb.com/name/nm4319541/"
     ]
-  },
-  {
+}, {
     "name": "Brad Williams",
     "headshot": "http://i.imgur.com/5wu8DXv.jpg",
     "twitter": "https://twitter.com/funnybrad",
     "instagram": "https://www.instagram.com/bradwilliamscomic/",
     "facebook": "https://www.facebook.com/BradWilliamsComic/",
-    "other": ["http://bradwilliamscomedy.com/"
-    ]
-  }
-]
+    "other": ["http://bradwilliamscomedy.com/"]
+}]
