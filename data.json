@@ -70,7 +70,20 @@
     "other": [
         "http://mikefinoia.com/"
     ]
-}, {
+},
+{
+"name": "Josh Denny",
+"headshot": "https://pbs.twimg.com/media/CsiuYH2WAAACUVJ.jpg:large",
+"youtube": "https://www.youtube.com/channel/UC4QD5G6M3CnSvJE9FASRB6g",
+"twitter": "https://twitter.com/JoshDenny",
+"instagram": "http://www.instagram.com/joshdenny",
+"facebook": "https://www.facebook.com/joshdennycomedy",
+"other": [
+"http://www.joshdennycomedy.com/",
+"http://www.foodnetwork.com/hosts/josh-denny.html"
+]
+},
+{
     "name": "Brendan Mitchell",
     "headshot": "https://i.imgur.com/nmBZbYy.png",
     "youtube": "https://www.youtube.com/user/wetmovie1",
