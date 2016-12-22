@@ -1,5 +1,16 @@
 [
   {
+    "name":"Patrick Melton",
+    "headshot":"https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/15697743_1290364087695358_3881508545284416445_n.jpg?oh=a114504c9e81a42d1f2ec608f6784b14&oe=58FCF0C6",
+    "youtube":"https://www.youtube.com/channel/UCDuKXWcNqC3AZhTy09fKMEA",
+    "twitter":"https://twitter.com/pmelt",
+    "instagram":"https://www.instagram.com/pmelt/",
+    "facebook":"https://www.facebook.com/pmelt",
+    "other":[
+      "http://www.nobodylikesonions.com/"
+    ]
+  },
+  {
     "name": "Michael Ray Bower",
     "headshot": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/6/14/enhanced/webdr01/grid-cell-13006-1412619285-7.jpg",
     "youtube": "https://youtube.com/heybower",
@@ -33,15 +44,10 @@
     ]
   },
   {
-    "name":"Patrick Melton",
-    "headshot":"https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/15697743_1290364087695358_3881508545284416445_n.jpg?oh=a114504c9e81a42d1f2ec608f6784b14&oe=58FCF0C6",
-    "youtube":"https://www.youtube.com/channel/UCDuKXWcNqC3AZhTy09fKMEA",
-    "twitter":"https://twitter.com/pmelt",
-    "instagram":"https://www.instagram.com/pmelt/",
-    "facebook":"https://www.facebook.com/pmelt",
-    "other":[
-      "http://www.nobodylikesonions.com/"
-    ]
+  "name": "Jon Meseke",
+  "headshot": "http://i.imgur.com/JeiafJ5.png",
+  "other": ["https://redbarradio.net/donsyndrome"
+  ]
   },
   {
     "name":"Tony Hinchcliffe",
@@ -55,6 +61,36 @@
     ]
   },
   {
+  "name": "Mike Finoia",
+  "headshot": "http://www.tellus360.com/wp-content/uploads/2016/06/FullSizeRender.jpg",
+  "twitter": "https://twitter.com/mikefinoia",
+  "instagram": "https://www.instagram.com/mikefinoia/",
+  "facebook": "https://www.facebook.com/mike.finoia",
+  "other": [
+  "http://mikefinoia.com/"
+  ]
+  },
+  {
+    "name": "Brendan Mitchell",
+    "headshot": "https://i.imgur.com/nmBZbYy.png",
+    "youtube": "https://www.youtube.com/user/wetmovie1",
+    "twitter": "https://twitter.com/wetmovie",
+    "instagram": "https://www.instagram.com/wetmovie_1/",
+    "facebook": "https://www.facebook.com/brendan.mitchell.96r"
+  },
+  {
+    "name": "Gabe Mercado",
+    "headshot": "https://i.ytimg.com/vi/b4VyH_VmqdQ/maxresdefault.jpg",
+    "youtube": "https://www.youtube.com/user/HeroSuper99",
+    "instagram": "https://www.instagram.com/herosuper99/",
+    "facebook": "https://www.facebook.com/gabriel.mercado.1675"
+  },
+  {
+    "name": "The Food Reviewer",
+    "headshot": "blob:http://imgur.com/98024b13-e486-4c40-8151-e01391be0c6c",
+    "youtube": "https://www.youtube.com/user/Thefoodreviewer"
+  },
+  {
     "name": "Alison Rosen",
     "headshot": "https://i.imgur.com/Rbeahle.png",
     "youtube": "https://www.youtube.com/user/AlisonRosen",
@@ -63,6 +99,32 @@
     "facebook": "https://www.facebook.com/thealisonrosen",
     "other": [
       "http://www.alisonrosen.com/"
+    ]
+  },
+  {
+    "name": "Cameron Espozito",
+    "headshot": "http://i.imgur.com/SXNnhDe.jpg",
+    "youtube": "https://www.youtube.com/channel/UCOsDNgxQLb0GIH27NrayoTQ",
+    "twitter": "https://twitter.com/cameronesposito",
+    "instagram": "https://www.instagram.com/cameronesposito/",
+    "facebook": "https://www.facebook.com/cameronjokes",
+    "other": [
+    "https://twitter.com/cameronesposito/",
+    "https://www.youtube.com/playlist?list=PLVv710SrggAETuhHW3qMKLynYhRVeshKc",
+    "https://www.youtube.com/playlist?list=PLd8dExv3TGsr3fN8qJcPdouPsoPdz6TGz"
+    ]
+  },
+  {
+    "name": "Rhea Butcher (The Butcher)",
+    "headshot": "http://i.imgur.com/GCNMRWu.png",
+    "youtube": "https://www.youtube.com/user/RheaButcherComedy",
+    "twitter": "https://twitter.com/RheaButcher",
+    "instagram": "https://www.instagram.com/rheabutcher/",
+    "facebook": "https://www.facebook.com/RheaButcher/",
+    "other": [
+    "http://www.imdb.com/name/nm6429056/",
+    "https://www.youtube.com/playlist?list=PLVv710SrggAETuhHW3qMKLynYhRVeshKc",
+    "https://www.youtube.com/playlist?list=PLd8dExv3TGsr3fN8qJcPdouPsoPdz6TGz"
     ]
   },
   {
@@ -86,11 +148,24 @@
     ]
   },
   {
-    "name": "Brendan Mitchell",
-    "headshot": "https://i.imgur.com/nmBZbYy.png",
-    "youtube": "https://www.youtube.com/user/wetmovie1",
-    "twitter": "https://twitter.com/wetmovie",
-    "instagram": "https://www.instagram.com/wetmovie_1/",
-    "facebook": "https://www.facebook.com/brendan.mitchell.96r"
+    "name": "Natasha Peal Hansen",
+    "headshot": "https://pbs.twimg.com/media/COKWOzIUsAA2tek.jpg",
+    "youtube": "https://www.youtube.com/user/natashapearlhansen",
+    "twitter": "https://twitter.com/NPHcomedy",
+    "instagram": "https://www.instagram.com/nphcomedy/",
+    "facebook": "https://www.facebook.com/NatashaPearlHansen",
+    "other": [
+    "http://www.natashapearlhansen.com/",
+    "http://www.imdb.com/name/nm4319541/"
+    ]
+  },
+  {
+    "name": "Brad Williams",
+    "headshot": "http://i.imgur.com/5wu8DXv.jpg",
+    "twitter": "https://twitter.com/funnybrad",
+    "instagram": "https://www.instagram.com/bradwilliamscomic/",
+    "facebook": "https://www.facebook.com/BradWilliamsComic/",
+    "other": ["http://bradwilliamscomedy.com/"
+    ]
   }
 ]
