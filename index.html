@@ -157,7 +157,7 @@
         for(i=0;i<particleAmount;i++){
           var posY = randomFloatFromInterval(0,canvas.height/PIXEL_RATIO);
           var posX = randomFloatFromInterval(0,canvas.width/PIXEL_RATIO);
-          var radius = randomFloatFromInterval(0,0.5);
+          var radius = randomFloatFromInterval(0,1);
           var direction = {x:randomFloatFromInterval(-1,1),y:randomFloatFromInterval(-1,1)};
           var sizeDirection = randomFloatFromInterval(-2, 2);
           particles.push({x:posX,y:posY,radius:radius,direction:direction,sizeDirection:sizeDirection,maxSize:1});
