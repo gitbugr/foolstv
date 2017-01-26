@@ -1,4 +1,13 @@
-[{
+[
+  {
+    "name": "Joe Matarese",
+    "headshot": "http://i.imgur.com/CIAQy16.png",
+    "youtube": "https://www.youtube.com/user/matarese67",
+    "twitter": "https://twitter.com/thejoematarese",
+    "instagram": "https://www.instagram.com/thejoematarese/",
+    "other":["http://joematarese.com/"]
+  },
+  {
     "name": "Patrick Melton",
     "headshot": "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/15697743_1290364087695358_3881508545284416445_n.jpg?oh=a114504c9e81a42d1f2ec608f6784b14&oe=58FCF0C6",
     "youtube": "https://www.youtube.com/channel/UCDuKXWcNqC3AZhTy09fKMEA",
@@ -64,7 +73,7 @@
     ]
 }, {
     "name": "Alan J Ericson",
-    "headshot": "https://pbs.twimg.com/profile_images/788520069106130944/sRgah2NJ.jpg",
+    "headshot": "http://i.imgur.com/LaAQYxD.png",
     "youtube": "https://youtube.com/channel/UC3PB-_irsNcKs0frWt_QTkg",
     "twitter": "https://twitter.com/gorillaradio_tv",
     "instagram": "https://www.instagram.com/alphonzotrill",
@@ -181,7 +190,8 @@
     "other": [
         "https://offermanwoodshop.com/"
     ]
-}, {
+},
+{
     "name": "Megan Mullally",
     "headshot": "http://i.imgur.com/80UlM4Y.jpg",
     "twitter": "https://twitter.com/meganomullally",
@@ -218,4 +228,16 @@
     "instagram": "https://www.instagram.com/bradwilliamscomic/",
     "facebook": "https://www.facebook.com/BradWilliamsComic/",
     "other": ["http://bradwilliamscomedy.com/"]
-}]
+},
+{
+"name": "Steve Harwell",
+"headshot":"http://rightcheer.com/images/thumbs/Smash_Mouth.jpg",
+"youtube": "https://www.youtube.com/user/SmashMouthVEVO",
+"twitter": "https://twitter.com/steveharwell",
+"instagram": "https://www.instagram.com/steveharwell1/",
+"other": [
+"https://en.wikipedia.org/wiki/Steve_Harwell",
+"http://www.smashmouth.com/"
+]
+}
+]
