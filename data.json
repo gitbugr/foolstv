@@ -1,15 +1,7 @@
 [
   {
-    "name": "Joe Matarese",
-    "headshot": "http://i.imgur.com/CIAQy16.png",
-    "youtube": "https://www.youtube.com/user/matarese67",
-    "twitter": "https://twitter.com/thejoematarese",
-    "instagram": "https://www.instagram.com/thejoematarese/",
-    "other":["http://joematarese.com/"]
-  },
-  {
     "name": "Patrick Melton",
-    "headshot": "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/15697743_1290364087695358_3881508545284416445_n.jpg?oh=a114504c9e81a42d1f2ec608f6784b14&oe=58FCF0C6",
+    "headshot": "http://i.imgur.com/u8ILaga.jpg",
     "youtube": "https://www.youtube.com/channel/UCDuKXWcNqC3AZhTy09fKMEA",
     "twitter": "https://twitter.com/pmelt",
     "instagram": "https://www.instagram.com/pmelt/",
@@ -17,7 +9,15 @@
     "other": [
         "http://www.nobodylikesonions.com/"
     ]
-}, {
+},
+  {
+    "name": "Joe Matarese",
+    "headshot": "http://i.imgur.com/CIAQy16.png",
+    "youtube": "https://www.youtube.com/user/matarese67",
+    "twitter": "https://twitter.com/thejoematarese",
+    "instagram": "https://www.instagram.com/thejoematarese/",
+    "other":["http://joematarese.com/"]
+  }, {
     "name": "Michael Ray Bower",
     "headshot": "https://img.buzzfeed.com/buzzfeed-static/static/2014-10/6/14/enhanced/webdr01/grid-cell-13006-1412619285-7.jpg",
     "youtube": "https://youtube.com/heybower",
@@ -74,7 +74,7 @@
     ]
 }, {
     "name": "Tony Hinchcliffe",
-    "headshot": "http://mypullzone.orangepopmediall.netdna-cdn.com/wp-content/uploads/2016/01/tony-hinchcliffe-640x377.jpg",
+    "headshot": "http://cdn.ticketfly.com/i/00/01/49/77/55-exl.jpg",
     "youtube": "https://www.youtube.com/channel/UCYdFv-xUjmr7jn3vWTXugKg",
     "twitter": "http://twitter.com/TonyHinchcliffe",
     "instagram": "http://instagram.com/tonyhinchcliffe/",
