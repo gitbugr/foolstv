@@ -10,6 +10,37 @@
         "http://www.nobodylikesonions.com/"
     ]
 },
+   {
+    "name": "Anthony Cumia",
+    "headshot": "http://i.imgur.com/Xxiy9QF.png",
+    "twitter": "https://twitter.com/anthonycumiaxyz",
+    "instagram": "https://www.instagram.com/pmelt/",
+    "facebook": "https://www.facebook.com/pmelt",
+    "other": [
+        "http://www.compoundmedia.com/"
+    ]
+},
+{
+    "name": "Gavin McIness",
+    "headshot": "http://i.imgur.com/3uxUyHS.png",
+    "youtube": "",
+    "twitter": "https://twitter.com/gavinmciness",
+    "instagram": "https://www.instagram.com/gavinmciness/",
+    "other": [
+        "http://www.compundmedia.com/"
+    ]
+},
+{
+    "name": "Eugene Bisconte",
+    "headshot": "http://i.imgur.com/TuJfQnV.jpg",
+    "youtube": "",
+    "twitter": "https://twitter.com/genobisconte",
+    "other": [
+        "http://www.compundmedia.com/"
+    ]
+},
+
+
   {
     "name": "Joe Matarese",
     "headshot": "http://i.imgur.com/CIAQy16.png",
